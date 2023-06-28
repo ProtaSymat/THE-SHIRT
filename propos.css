@@ -164,12 +164,12 @@ header .Expli2 {
 }
 
 header .Text2 h1 {
-    font-size:75px;
+    font-size: 70px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     color: #fff;
     width: 70%;
-    margin-left: 370px;
+    margin-left: 200px;
 }
 
 header .Text2 h4{
@@ -177,7 +177,7 @@ header .Text2 h4{
     font-size: 20px;
     text-align: justify;
     width: 50%;
-    margin-left: 500px;
+    margin-left: 300px;
     font-family: 'Chivo', sans-serif;
 }
 
