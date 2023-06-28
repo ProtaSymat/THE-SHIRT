@@ -1,0 +1,271 @@
+/* ================================================== */
+/* CSS RESET */
+/* ================================================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ================================================== */
+/* PAGE */
+/* ================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#e8d1fd, #d8b2fb, #d8b2fb);
+    font-family: 'Oswald', sans-serif;
+}
+
+.promo {
+    text-align: center;
+    color: white;
+    padding: 2px 2px;
+    background-color: rgb(99, 14, 93);
+}
+
+/* ================================================== */
+/* NAVIGATION */
+/* ================================================== */
+
+.navigation-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;    
+    height: 120px;
+    padding: 0 10px;
+    background-color: rgb(169, 109, 226);
+    box-shadow: 0px 5px 25px rgba(113, 24, 197, 0.441);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.navigation-bar .ul-pages li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 30px;
+}
+
+a{
+    letter-spacing: 0.1rem;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+input {
+    position: relative;
+    display: flex;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(99, 14, 93);
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.505);
+}
+
+.navigation-bar .ul-icons li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 30px;
+    height: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#logo {
+    height: 80px;
+    margin-top: 15px;
+    padding-right: 190px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.souligner {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to top, rgb(99, 14, 93) 0%, rgb(99, 14, 93) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+
+a:hover {
+    background-size: 100% 100%;
+}
+
+/* ================================================== */
+/* HEADER */
+/* ================================================== */
+
+/* EXPLICATION 1 */
+header .Expli1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8b2fb;
+    height: 850px;
+    box-shadow: 0px -10px 25px rgba(113, 24, 197, 0.441);
+}
+
+
+header .Text h1{
+    font-size:75px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    width: 50%;
+    margin-left: 100px;
+    color: #a24df2;
+}
+
+header .Text h4{
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 50%;
+    margin-left: 100px;
+}
+
+header .Expli1 img{
+    height: 500px;
+    margin-right: 100px;
+}
+/* EXPLICATION 2 */
+
+header .Expli2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #a24df2;
+    height: 850px;
+    box-shadow: 0px -10px 25px rgba(113, 24, 197, 0.441);
+}
+
+header .Text2 h1 {
+    font-size:75px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    width: 70%;
+    margin-left: 370px;
+}
+
+header .Text2 h4{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    width: 50%;
+    margin-left: 500px;
+    font-family: 'Chivo', sans-serif;
+}
+
+header .Expli2 img{
+    height: 500px;
+    margin-left: 100px;
+    border: 5px solid rgba(255, 255, 255, 0.306);
+}
+
+/* EXPLICATION 3 */
+
+header .Expli3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8b2fb;
+    height: 850px;
+}
+
+header .Text3 h1 {
+    font-size:75px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #a24df2;
+    width: 100%;
+    padding: 0 16px;
+}
+
+header .Text3 h4{
+    font-size: 20px;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    text-align: justify;
+    width: 70%;
+    margin-left: 100px;
+}
+
+header .Expli3 img{
+    height: 500px;
+    margin-right: 70px;
+    border: 5px solid rgba(255, 255, 255, 0.306);
+}
+
+/* ================================================== */
+/* FOOTER */
+/* ================================================== */
+
+footer {
+    position: relative;
+    line-height: 3rem;
+    padding: 6rem, 1rem, 0;
+    background-color:rgb(169, 109, 226);
+    color: white;
+    margin-top: 5rem;
+    box-shadow: 0px 5px 35px rgba(113, 24, 197, 0.441);
+}
+
+footer span {
+    margin-right: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-bottom{
+   background-color:rgb(99, 14, 93);
+   padding: 5px 0;
+   text-align: center;
+}
+
+
+footer .footer-center h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer .footer-center a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 2s ease;
+    cursor: pointer;
+}
+
+footer .footer-center .footer-infos:hover{
+    transform: translateX(20%);
+}
